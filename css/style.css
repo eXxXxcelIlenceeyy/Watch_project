@@ -1,0 +1,295 @@
+@import url(fonts.css);
+
+* {
+    color: #272727;
+    font-family: League Spartan;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: #161515;
+    /*var(--, #161515) Почему это не применяется???*/
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    margin: 0;
+    text-decoration: none;
+}
+
+img {
+    height: 100%;
+    object-fit: cover;
+}
+
+form {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    padding: 0;
+    margin: 0;
+}
+
+.title {}
+
+.label {
+    color: #161515;
+    /*var(--, #161515) Почему это не применяется???*/
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 186%;
+    /* 44.64px */
+}
+
+.text {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 155%;
+}
+
+.btn {
+    background: #161515;
+    /*var(--, #161515) Почему это не применяется???*/
+    color: #FFF;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.stick {
+    background: #FFF;
+    box-shadow: 0px 0px 28px 0px rgba(214, 214, 214, 0.25);
+    text-align: center;
+    font-family: League Spartan;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 186%;
+    /* 59.52px */
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    height: 900px;
+    padding-top: 189px;
+    background: #F8F8F8;
+}
+
+.wrapper {
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.hero__watch-container {
+    position: absolute;
+    width: 408px;
+    height: 720px;
+    top: 0;
+    right: 0;
+    transform: translateY(-25%);
+}
+
+.hero__label {
+    max-width: 135px;
+    max-height: 32px;
+    margin-bottom: 53px;
+}
+
+.container {
+    position: relative;
+    width: 1064px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.hero__description {
+    width: max-content;
+    height: max-content;
+    margin-bottom: 51px;
+}
+
+.hero__title {
+    font-size: 250px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 43px;
+}
+
+.hero__text {
+    width: 575px;
+    max-height: 142px;
+}
+
+.purchase {
+    width: max-content;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.purchase__btn {
+    width: 278px;
+    height: 82px;
+    /* padding: 26px 74px 35px 73px; */
+}
+
+.purchase__stick {
+    display: inline-block;
+    width: 143px;
+    height: 82px;
+    padding: 13px 27px 31px 28px;
+}
+
+/* ---------------- 2 ----------------- */
+
+.models-options {
+    height: 2248px;
+    padding-top: 43px;
+}
+
+.models-options__head-desc {
+    width: max-content;
+    height: max-content;
+    margin: 0 auto;
+}
+
+.head-desc__label {
+    color: #000;
+    text-align: center;
+}
+
+.head-desc__title {
+    color: #000;
+    text-align: center;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 112.5%;
+}
+
+.models-options__info {
+    width: 531px;
+    height: 932px;
+    margin: 0 auto;
+}
+
+.form {
+    min-height: 100%;
+    min-width: 100%;
+    margin-top: 84px;
+}
+
+.form__watch-container {
+    width: 417px;
+    height: 630px;
+    background-color: #F8F8F8;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.watch-container {
+    width: 286px;
+    height: 410px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form__description {
+    /* width: 100%; */
+    /* height: 100%; */
+    margin-top: 67px;
+}
+
+.subtitle {
+    color: #000;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 17px;
+}
+
+.form__text {
+    text-align: center;
+}
+
+/* ------------------3 - footer--------------------- */
+
+.footer {
+    height: 481px;
+    padding-top: 59px;
+}
+
+.footer__head-block {
+    position: relative;
+    width: max-content;
+    height: max-content;
+    margin: 0 auto;
+}
+
+.footer__description-container {
+    position: relative;
+    width: max-content;
+    height: max-content;
+    max-width: 515px;
+    margin: 0 auto;
+}
+
+.footer__header {
+    color: #161515;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 186%;
+    /* 59.52px */
+    text-transform: capitalize;
+}
+
+.footer__text {
+    color: #161515;
+    text-align: center;
+    font-size: 24px;
+    line-height: 170%;
+    /* 40.8px */
+}
+
+.footer__span {
+    color: #BB8B5D;
+    font-weight: 500;
+    text-decoration-line: underline;
+}
