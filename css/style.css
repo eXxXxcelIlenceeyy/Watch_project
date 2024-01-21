@@ -48,16 +48,12 @@ footer {
     margin: 0;
 }
 
-.title {}
-
-.label {
+.model {
     color: #161515;
     /*var(--, #161515) Почему это не применяется???*/
     font-size: 24px;
     font-style: normal;
     font-weight: 300;
-    line-height: 186%;
-    /* 44.64px */
 }
 
 .text {
@@ -67,29 +63,6 @@ footer {
     line-height: 155%;
 }
 
-.btn {
-    background: #161515;
-    /*var(--, #161515) Почему это не применяется???*/
-    color: #FFF;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
-    cursor: pointer;
-}
-
-.stick {
-    background: #FFF;
-    box-shadow: 0px 0px 28px 0px rgba(214, 214, 214, 0.25);
-    text-align: center;
-    font-family: League Spartan;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 186%;
-    /* 59.52px */
-}
-
 html,
 body {
     height: 100%;
@@ -97,78 +70,73 @@ body {
     padding: 0;
 }
 
-.hero {
-    min-height: 900px;
-    padding-top: 104px;
-    padding-bottom: 168px;
-    background: #F8F8F8;
-}
-
 .wrapper {
     min-height: 100%;
     min-width: 100%;
+    background: #F8F8F8;
+    overflow: hidden;
 }
 
-.hero__watch-container {
-    position: absolute;
-    width: 408px;
-    height: 720px;
-    top: 0;
-    right: 0;
-    transform: translateY(-13%);
-}
-
-.hero__label {
-    width: max-content;
-    margin-bottom: 53px;
+.header {
+    padding-bottom: 170px;
 }
 
 .container {
-    position: relative;
     width: 1064px;
     height: 100%;
     margin: 0 auto;
 }
 
-.hero__description {
+.header__desc {
+    vertical-align: bottom;
     width: max-content;
-    height: max-content;
-    /* margin-bottom: 51px; */
+    display: inline-block;
+    margin-right: 29px;
 }
 
-.hero__title {
+.header__model {
+    margin-bottom: 53px;
+}
+
+.title {
     font-size: 250px;
-    font-style: normal;
     font-weight: 300;
-    line-height: normal;
-    margin-bottom: 43px;
+    margin-bottom: 23px;
 }
 
-.hero__text {
+.header__text {
     width: 575px;
-    min-height: 142px;
-    margin-bottom: 61px;
+    margin-bottom: 54px;
 }
 
-.purchase {
-    width: max-content;
-    height: max-content;
+.buy {
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
-.purchase__btn {
-    width: 278px;
-    height: 82px;
-    /* padding: 26px 74px 35px 73px; */
+.buy__link {
+    background: #161515;
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 300;
+    text-align: center;
+    padding: 26px 74px;
 }
 
-.purchase__stick {
+.buy__price {
+    background: #FFF;
+    box-shadow: 0px 0px 28px 0px rgba(214, 214, 214, 0.25);
+    text-align: center;
+    font-size: 32px;
+    font-weight: 300;
+    padding: 26px 32px;
+}
+
+.header__img-wrap {
     display: inline-block;
-    width: 143px;
-    height: 82px;
-    padding: 13px 27px 31px 28px;
+    vertical-align: bottom;
+    width: 408px;
+    height: 728px;
 }
 
 /* ---------------- 2 ----------------- */
