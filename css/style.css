@@ -151,12 +151,16 @@ body {
     margin: 0 auto;
 }
 
-.head-desc__label {
+.models-options__label {
     color: #000;
     text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 186%;
 }
 
-.head-desc__title {
+.models-options__title {
     color: #000;
     text-align: center;
     font-size: 72px;
@@ -170,13 +174,13 @@ body {
     margin: 0 auto;
 }
 
-.form {
+.section {
     min-height: 100%;
     min-width: 100%;
     margin-top: 84px;
 }
 
-.form__watch-container {
+.section__watch-container {
     width: 417px;
     height: 630px;
     background-color: #F8F8F8;
@@ -194,7 +198,7 @@ body {
     justify-content: center;
 }
 
-.form__description {
+.section__description {
     /* width: 100%; */
     /* height: 100%; */
     margin-top: 67px;
@@ -210,39 +214,38 @@ body {
     margin-bottom: 17px;
 }
 
-.form__text {
+.section__text {
     text-align: center;
 }
 
 /* ------------------3 - footer--------------------- */
 
 .footer {
-    height: 481px;
+    min-height: 481px;
     padding-top: 59px;
 }
 
-.footer__head-block {
+.footer__header {
     width: max-content;
     height: max-content;
     margin: 0 auto;
 }
 
-.footer__decoration {
-    background: #707070;
+.footer__hr {
+    color: #707070;
     margin: 0 auto;
-    height: 1px;
     width: 70%;
     margin-bottom: 49px;
 }
 
-.footer__description-container {
+.footer__desc {
     width: max-content;
     height: max-content;
     max-width: 515px;
     margin: 0 auto;
 }
 
-.footer__header {
+.footer__title {
     color: #161515;
     text-align: center;
     font-size: 32px;
